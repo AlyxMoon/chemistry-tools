@@ -25,6 +25,6 @@ describe('balance_equation', function() {
 
   const [left5, right5] = ['Al2(SO4)3 + Ca(OH)2', 'Al(OH)3 + CaSO4']
   it(`should balance the equation ${left5} -> ${right5}`, function() {
-    assert.equal(balance(left5, right5), '2Al2(SO4)3 + 3Ca(OH)2 -> 2Al(OH)3 + 3CaSO4')
+    assert.equal(balance(left5, right5), '1Al2(SO4)3 + 3Ca(OH)2 -> 2Al(OH)3 + 3CaSO4')
   })
 })
