@@ -5,7 +5,7 @@ describe('balance_equation', function() {
 
   const [left1, right1] = ['NaBr + Cl2', 'NaCl + Br2']
   it(`should balance the equation ${left1} -> ${right1}`, function() {
-    assert.equal(balance(left1, right1), '2NaBr + 2Cl -> 2NaCl + 2Br')
+    assert.equal(balance(left1, right1), '2NaBr + 1Cl2 -> 2NaCl + 1Br2')
   })
 
   const [left2, right2] = ['Cr2O3 + Mg', 'Cr + MgO']
@@ -15,7 +15,7 @@ describe('balance_equation', function() {
 
   const [left3, right3] = ['H2 + O2', 'H2O']
   it(`should balance the equation ${left3} -> ${right3}`, function() {
-    assert.equal(balance(left3, right3), '1H2 + 2O2 -> 2H2O')
+    assert.equal(balance(left3, right3), '2H2 + 1O2 -> 2H2O')
   })
 
   const [left4, right4] = ['C2H6 + O2', 'CO2 + H2O']
