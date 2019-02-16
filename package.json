@@ -1,0 +1,16 @@
+{
+  "name": "chemistry-tools",
+  "version": "1.0.0",
+  "description": "Chemistry related stuff I made for fun",
+  "main": "index.js",
+  "repository": "git@github.com:AlyxMoon/chemistry-tools.git",
+  "author": "Allister <allisterkmoon@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha --watch"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
